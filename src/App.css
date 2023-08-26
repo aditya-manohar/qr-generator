@@ -1,0 +1,62 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+*{
+  justify-content: center;
+}
+
+.header{
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.container{
+  display : grid;
+  justify-content: center;
+  margin:2rem;
+}
+
+
+.url{
+  width:21rem;
+  margin:2rem;
+  height: 2rem;
+  border: none;
+  font-size: large;
+  background-color: transparent;
+  border-bottom: 0.6px solid;
+}
+
+.url:hover{
+  border: none;
+}
+
+.url:active{
+  border: none;
+}
+
+.payment{
+  margin: 2rem;
+}
+
+.pay{
+  width:12rem;
+  height:1.8rem;
+  margin:1rem;
+}
+
+.qrcode{
+  border: none;
+  margin:3rem;
+}
+
+input[type='color']
+{
+  position: absolute;
+  width:2rem;
+  height:2rem;
+  border:none;
+  box-shadow: 1px 3px 6px 0px;
+  transform: translate(10rem,-2rem);
+}
